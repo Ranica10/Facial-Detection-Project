@@ -1,0 +1,3 @@
+pip install cv2
+numpy
+pip install PIL
