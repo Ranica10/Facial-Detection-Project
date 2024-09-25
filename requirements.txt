@@ -1,5 +1,3 @@
-pip install --upgrade pip
-
-pip install cv2
+opencv-python
 numpy
-pip install PIL
+Pillow
