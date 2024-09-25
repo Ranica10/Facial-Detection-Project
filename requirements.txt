@@ -1,3 +1,5 @@
+pip install --upgrade pip
+
 pip install cv2
 numpy
 pip install PIL
