@@ -1,4 +1,3 @@
-opencv-python>=4.9
-numpy>=1.26
+opencv-python
+numpy
 Pillow
-streamlit>=1.30

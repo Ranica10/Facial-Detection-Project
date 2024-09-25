@@ -22,16 +22,16 @@ def detect_faces(frame):
 
 st.header("Upload File")
 st.write("Click the button below to upload a file containing a face(s) and watch the magic happen!")
-file = st.file_uploader("Upload file", label_visibility="hidden")
+frame = st.file_uploader("Upload file", label_visibility="hidden")
 
-if file is not None:
+if frame is not None:
     img_detect = st.button("Start detecting")
 
     if img_detect:
-        file = Image.open(file)
-        file = detect_faces(np.array(file))
+        frame = Image.open(frame)
+        frame = detect_faces(np.array(frame))
     
-    st.image(file)
+    st.image(frame)
 
 st.divider()
 
